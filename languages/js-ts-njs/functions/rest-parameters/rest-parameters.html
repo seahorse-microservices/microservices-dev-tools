@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Rest Parameters Example</h2>
+
+<p id="greetings"></p>
+
+<p id="greetings2"></p>
+
+<script>
+
+function greeting(greetings, ...names) {
+    return greetings + " " + names.join(", ") + "!";
+}
+
+console.log(greeting("Hello", "Steve", "Bill"))
+
+console.log(greeting("Hello"))
+
+document.getElementById("greetings").innerHTML = greeting("Hello", "Steve", "Bill");
+document.getElementById("greetings2").innerHTML = greeting("Hello", "Steve");
+
+</script>
+
+</body>
+</html>

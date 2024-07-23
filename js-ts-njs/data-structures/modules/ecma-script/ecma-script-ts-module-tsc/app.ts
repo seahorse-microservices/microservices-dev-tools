@@ -1,4 +1,4 @@
-import { Addition } from "./additon";
+import { Addition } from "./addition";
       
 let addObject = new Addition(10, 20);   
   

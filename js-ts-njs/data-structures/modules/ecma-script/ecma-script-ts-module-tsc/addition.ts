@@ -5,4 +5,4 @@ export class Addition{
     Sum(){  
         console.log("SUM: " +(this.x + this.y));  
     }  
-}  
+} 
